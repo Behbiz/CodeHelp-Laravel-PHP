@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100px !important;
+    
+}
+.ctnFlex{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.leftPosition{
+    width:43%;
+    margin:2%;
+ 
+}
+.rightPosition{
+    width:43%;
+    margin:2%;
+    float:right;
+    padding: 2%;
+  
+}
