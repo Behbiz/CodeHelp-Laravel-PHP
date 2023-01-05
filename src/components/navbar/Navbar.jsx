@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="Navbar">
       <nav class="navbar navbar-expand-sm bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/home">
             <img src={Logo} alt="Logo" className='logo'/>
             </a>
                

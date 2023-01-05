@@ -1,3 +1,41 @@
-.select-css{
+.title{
+    padding:3%;
+    text-align:center;
+}
+h3{
+    padding:3%;
+    text-align:left;
+}
+.ctnSelect{
+    display: flex;
+    flex-direction : row;
+    height:60vh;
+    width:100%;
+}
+.imgselect{
+    height: 90%;
+    margin-left:10%;
+    margin-bottom:50px;
+    border-radius:33px;
+}
+.selectPosition{
+    float:right;
+    margin-right: 10%;
+    margin-left: 5%;
+
+    padding-top: 3%;
     
+}
+.buttones{
+    display: inline-flex;
+    padding-top: 50px;
+    
+}
+.buttoncreate{
+    padding-left: 10%;
+    padding-right: 100px;
+}
+.buttoncancel{
+    padding-left: 10%;
+    padding-right: 100px;
 }

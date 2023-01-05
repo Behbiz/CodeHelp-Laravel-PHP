@@ -9,7 +9,9 @@ function List() {
     
     <div className="App">
       <Navbar/>
-      <Citas/>
+  
+        <Citas/>
+
       <Footer/>
     </div>
   );

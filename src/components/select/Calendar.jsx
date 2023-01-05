@@ -1,4 +1,3 @@
-import React from "react";
 import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 
@@ -10,7 +9,7 @@ import 'react-datepicker/dist/react-datepicker-cssmodules.css';
 const Calendario = () => {
     const [startDate, setStartDate] = useState(new Date());
     return (
-      //<DatePicker selected={startDate} onChange={(date) => setStartDate(date)} />
+      <DatePicker selected={startDate} onChange={(date) => {setStartDate(date) }} showTimeInput />
     );
   };
 export default Calendario;

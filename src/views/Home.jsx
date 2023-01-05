@@ -8,7 +8,9 @@ function Home() {
     
     <div className="App">
       <Navbar/>
-        <Login/>
+      <main>
+      <Login/>
+      </main>
       <Footer/>
     </div>
   );

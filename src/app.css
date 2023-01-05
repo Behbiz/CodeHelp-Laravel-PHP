@@ -10,7 +10,8 @@ footer{
   position:fixed;
   left:0;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
+  
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
