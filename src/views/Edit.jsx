@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/navbar/Navbar';
 import Footer from '../components/footer/Footer';
+import EditSelect from '../components/select/EditSelect';
 
 
 function Edit() {
@@ -8,7 +9,7 @@ function Edit() {
     
     <div className="App">
       <Navbar/>
-     
+        <EditSelect/>
       <Footer/>
     </div>
   );

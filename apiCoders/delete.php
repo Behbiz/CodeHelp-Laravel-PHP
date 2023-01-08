@@ -9,12 +9,14 @@
     include_once '../class/citas.php';
     
     $database = new Database();
-    $db = $database->getConnection();
+    
+       
+     $db = $database->getConnection();
     
     $item = new Citas($db);
     
     $data = json_decode(file_get_contents("php://input"));
-    
+        
     $item->id = $data->id;
     
     if($item->deleteCitas()){

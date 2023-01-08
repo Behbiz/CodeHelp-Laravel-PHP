@@ -6,14 +6,31 @@ h3{
     padding:3%;
     text-align:left;
 }
+h4{
+    text-align:left;
+    
+}
+#datetime{
+    text-align:left;
+}
+form{
+    text-align: left;
+}
+#theme{
+    float:left;
+}
+#coders{
+    float:left;
+}
 .ctnSelect{
     display: flex;
     flex-direction : row;
-    height:60vh;
+    height:60;
     width:100%;
+    overflow: hidden;
 }
 .imgselect{
-    height: 90%;
+    height: 50%;
     margin-left:10%;
     margin-bottom:50px;
     border-radius:33px;
@@ -28,7 +45,7 @@ h3{
 }
 .buttones{
     display: inline-flex;
-    padding-top: 50px;
+    padding: 50px;
     
 }
 .buttoncreate{
@@ -39,3 +56,70 @@ h3{
     padding-left: 10%;
     padding-right: 100px;
 }
+#theme{
+    width:350px
+}
+@media screen and (max-width:1200px) {
+    
+    h1{
+        font-size: 1.5rem;
+    }
+    h4{
+        font-size: 1.5rem;
+       
+    }
+    .ctnSelect{
+        display: flex;
+        flex-direction : column;
+        overflow: hidden;
+        overflow-y:scroll;
+        max-width: 550px;
+	    min-height: 88px;
+	    text-align: center;
+	    margin: auto;
+       
+    }
+    .imgselect{ 
+      height: 80%;
+      width:80%;
+      margin-left:auto; 
+      margin-right:auto;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+  #theme{
+    width: 250px;
+  }
+  .buttones{
+    margin-bottom:30% 
+}
+
+  @media screen and (max-width:425px) {
+     
+    h1{
+        font-size: 1rem;
+    }
+    h4{
+        font-size: 1rem;
+    
+    }
+    .ctnSelect{
+        display: flex;
+        flex-direction : column;
+        text-align: center;
+       
+    }
+    .imgselect{ 
+      height: 80%;
+      width:80%;
+      margin-left:auto; 
+      margin-right:auto;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+  #theme{
+    width: 250px;
+  }
+  .buttones{margin-bottom:30% }
+  }
+} 
