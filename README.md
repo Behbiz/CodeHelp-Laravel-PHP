@@ -1,4 +1,8 @@
 ## Code-Help
+<p align="center">
+  <img src="src/Assets/logocode-help.svg" width="200" title="hover logo">
+  
+</p>
 
 Is an institutional application used to schedule appointments between Junior, Full and Senior coders of the same company, in order to provide remote technical appointment scheduling, with remote assistance aiming at the concurrent socialization of company members with newly hired junior programmers and who need help.
 
